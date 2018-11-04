@@ -74,6 +74,9 @@ $("document").ready(function () {
     // This is an empty string for the user guess
     let userGuess = "";
 
+    // This is a variable to hold a reference to the questions and answers
+    let currentQuestion;
+
     // This function subtracts one from the time variable and updates the html to display the new value once every second
     function decrement() {
 
@@ -124,7 +127,7 @@ $("document").ready(function () {
     // This function grabs a question and it's answers from the triviaQuestionsAndAnswers Object 
     function displayQuestion () {
 
-        content.append(triviaQuestionsAndAnswers.question[0]);
+        
         console.log(displayQuestion());
 
     }
