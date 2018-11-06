@@ -66,3 +66,9 @@ header {
     font-size: 2em;
     
 }
+
+.questionText {
+    font-family: 'Sedgwick Ave Display'; 
+    color: gold;
+    font-size: 2em;
+}
